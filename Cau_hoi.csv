@@ -1,0 +1,27 @@
+﻿Nhóm,Trưởng nhóm,,Lượt 1,
+,Mã SV,Họ tên,Câu hỏi,Trả lời
+1,18520658,Đinh Duyên Bảo Duy,Khác biết giữa Backtracking và vét cạn?,"Quay lui là một kĩ thuật vét cạn (duyệt).
+Còn vét cạn chỉ là duyệt qua hết tất cả trường hợp có thể có."
+2,18520738,Lê Trung Hiếu,Backtracking có thể thiết kế trên kĩ thuật khác không?,Backtracking có thể được thiết kế thực hiện dựa trên đệ quy hoặc vòng lặp
+3,18521662,Đinh Xuân Vũ,Những bài toán nào áp dụng backtracking?,Những bài toán cần giải quyết kiểu liệt kê cấu hình và thử tất các cấu hình đó để tìm ra lời giải. Như bài toán về hoán vị và một số bài toán thoả mãn ràng buộc nào đó
+4,18520792,Dương Ngọc Hùng,,
+5,18520471,Tô Viết Anh,"backtracking có thể trả về nhiều giải pháp hay 1 cái, có tối ưu hay không?","Quay lui hoàn toàn có thể trả về nhiều kết quả, nếu trả về 1 kết quả thì đó là kết quả tốt nhất mà thuật toán tìm được"
+6,18521653,Nguyễn Kiều Vinh,Trong rat in maze làm sao biết hướng nào để con chuột đi đầu tiên?,"con chuột sẽ lựa chọn thử tất cả các hướng đi nó có thể đi được, nếu không đúng nó sẽ quay lại bước trước đó"
+7,18521558,Phạm Tiến Trung,Đặc điểm chung của những bài toán có thể giải quyết bằng Backtracking là gì?,là những bài toán liệt kê cấu trúc
+8,18520689,Nguyễn Đức Hà,"Ngoài những bài toán đó, Backtracking sử dụng trong hthực tế như nào?","làm game , ai ,giải câu đố ,google map"
+9,18521447,Nguyễn Trường Thịnh,Khi nào thì dùng Backtracking,Nhằm giải quyết các bài toán tìm 1 trong các trường hợp khả dĩ
+10,18521283,Đỗ Mạnh Quân,Độ phức tạp của Rat in maze,"trường hợp xấu nhất của thuật toán rat in maze là mê cung của mình đều là đường đi được, và tương ứng với mỗi ô mình có khả năng đi 2 hướng nên với mê cung kích thước là n*n thì số hướng có thể đi hay là số lần đệ quy là 2^(n^2)"
+11,18520748,Nguyễn Quang Hiếu,,
+12,18520915,Hồ Sỹ Đăng Khoa,quay lui dùng trong công nghiệp làm game ntn?,"Trong game thì các thuật toán backtracking cũng có những ứng dụng thú vị, điển hình như là để làm bot cho game. Đối với các game đánh cờ, ví dụ như tic-tac-toe thì mình có thể ứng dụng minimax, cải tiến của minimax là alpha-beta prunning. Ngoài ra còn có các thuật toán khác như A*, cây quyết định cũng có những ứng dụng trong làm game.
+Mình có tìm được 2 tài liệu nói về ứng dụng A* và cây quyết định trong game, xin gửi bạn tham khảo:
+
++ Ứng dụng A*: https://www.gamedev.net/tutorials/programming/artificial-intelligence/the-total-beginners-guide-to-game-ai-r4942/
+
++ Ứng dụng decision tree: https://www.researchgate.net/publication/221308927_Decision_Tree-Based_Algorithms_for_Implementing_Bot_AI_in_UT2004
+
+Ngoài ra có 1 trang tương tự như codeforces, leetcode là codingame. Các problems trong trang này đều được thể hiện dưới dạng game. Bạn có thể xem các problems ở tag backtracking, quay đó có thể bạn sẽ tìm được nhiều ý tưởng hơn nữa.
+
+Mình xin cảm ơn !"
+13,18520504,Vũ Gia Bảo,Ngoài DFS áp dụng quay lui vào thuật toán nào là tối ưu hơn cả?,
+14,18520672,Phạm Tiến Duy,Giải pháp tăng tốc quay lui? Đề xuất giải quyết kết quả trả về,"backtracking nó cũng là vét cạn, nó cũng sẽ đi kiểm tra mọi trường hợp có thể,nên mình có thể dùng hàm điều kiện để chặt bớt các nhánh trên cây không gian trạng thái tìm kiếm đi, tránh phải tìm kiếm những nhánh không cần thiềt, giảm số trường hợp phải kiểm tra xuống, qua đó nó sẽ chạy nhanh hơn"
+15,18520548,Phan Khắc Cường,,
